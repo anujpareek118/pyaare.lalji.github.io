@@ -1,0 +1,36 @@
+.relationship-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    grid-gap: 20px;
+  }
+  
+  .box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+  }
+  
+  .photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .symbol {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(250, 249, 248, 0.893); /* Change color as needed */
+  }
+  
+  .video {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
